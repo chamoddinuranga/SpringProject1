@@ -25,4 +25,5 @@ public class Student {
     public String getAllStudentWithTwoParams(@PathVariable String id,@PathVariable int code){
         return "Get Student data with multi params as id" + id + "and" + code;
     }
+
 }
